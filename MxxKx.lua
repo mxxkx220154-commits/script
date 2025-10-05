@@ -16,7 +16,7 @@ Section:NewButton("Tiny-hub (เก็บสัตว์ออโต้)", "Butt
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TinySenpaiz/TinyHub/refs/heads/main/TinyHub.lua"))()
 end)
 
-Section:NewButton("MxxKx (วิ่งไว)", "ButtonInfo", function(c)
+Section:NewButton("มิกกี้", "ButtonInfo", function(c)
     print("Clicked")
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("MxxKx", "DarkTheme")
