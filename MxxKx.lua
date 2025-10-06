@@ -6,12 +6,7 @@ local Window = Library.CreateLib("MxxKx", "DarkTheme")
 local Tab = Window:NewTab("All Script")
 local Section = Tab:NewSection("All Script")
  
-Section:NewButton("Venuz-hub (ตกปลาออโต้)", "ButtonInfo", function(c)
-    print("Clicked")
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/x2Kotaro/Venuz-hub/main/Loader.lua'))()
-end)
-
-Section:NewButton("Tiny-hub (เก็บสัตว์ออโต้)", "ButtonInfo", function(c)
+Section:NewButton("Tiny-hub (script The Best)", "ButtonInfo", function(c)
     print("Clicked")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TinySenpaiz/TinyHub/refs/heads/main/TinyHub.lua"))()
 end)
