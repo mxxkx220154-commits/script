@@ -192,3 +192,13 @@ Section:NewButton("GUBOT", "ButtonInfo", function(c)
     print("Clicked")
     loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/01f7e7df477295de7eb9f0af5b2e61f8.lua"))()
 end)
+
+Section:NewButton("Steal an Egg (miirandahub / No Key)", "ButtonInfo", function(c)
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/miirandahub/loader/refs/heads/main/stealaeggs"))()
+end)
+
+Section:NewButton("Steal an Egg (AJJANS / Key)", "ButtonInfo", function(c)
+    print("Clicked")
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/36107afd3107e8d841f9d1a69e2465d4.lua"))()
+end
